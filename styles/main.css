@@ -29,6 +29,14 @@ h1,
   width: auto;
 }
 
+.container {
+  background-image: url(https://point.moxcreative.com/beeparty/wp-content/uploads/sites/10/2022/05/bg_doodle_1.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  /*opacity: 0.7;*/
+}
+
 .container .row .left-wrap {
   padding-right: 0;
   padding-left: 0;
@@ -139,6 +147,7 @@ h1,
 }
 
 .container .right .mainInfo .form-subscribe {
+  display: flex;
   margin-top: 0.5em;
 }
 
@@ -149,21 +158,17 @@ h1,
 }
 
 .container .right .mainInfo .form-subscribe .form {
-  height: 40px;
-  padding: 0;
   margin-right: -6px;
   border: 1px solid black;
   border-right: none;
-  padding-left: 0.5em;
+  padding: 0 0 0 0.5em;
+  outline: none;
 }
 
 .container .right .mainInfo .form-subscribe button {
-  width: 120px;
-  height: 40px;
   border: 1px solid black;
-  border-top: 2px solid black;
   border-radius: 0 25px 25px 0;
-  padding: 0;
+  padding: 8px 15px;
   color: white;
   background-color: black;
 }
@@ -258,14 +263,14 @@ button,
   content: "\f16d";
 }
 
-.github::before {
+.tiktok::before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f09b";
+  content: "\e07b";
 }
 
-.stackoverflow::before {
+.whatsapp::before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f16c";
+  content: "\f232";
 }
 
 .youtube::before {
